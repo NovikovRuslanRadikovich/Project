@@ -31,8 +31,9 @@ public class ProductDetail extends HttpServlet {
         if(request.getParameter("comment") != null ) {
             int id = Integer.valueOf(request.getPathInfo().substring(1));
 
-            String comment = request.getParameter("comment");
-
+            String commen = request.getParameter("comment");
+            String name = (String) request.getSession().getAttribute("user");
+            String comment = name +": "  + commen;
             Connection connection = DbWrapper.getConnection();
             PreparedStatement preparedStatement = null;
             try {

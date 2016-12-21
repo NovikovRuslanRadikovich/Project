@@ -1,0 +1,10 @@
+[Logging Started]
+Connecting to server...
+Connected to server
+Opening streams...
+Client connected
+Opening streams...
+Streams opened
+Streams opened
+Images loaded
+Images loaded
