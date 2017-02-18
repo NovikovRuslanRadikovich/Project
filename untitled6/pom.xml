@@ -12,9 +12,9 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <properties>
+   <!-- <properties>
         <spring.version>4.3.4.RELEASE</spring.version>
-    </properties>
+    </properties>  -->
 
     <dependencies>
 
