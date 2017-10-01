@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="SemestrovayaRabota:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="HockeyShop-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="SemestrovayaRabota:war exploded" />
-    </root>
-  </artifact>
-</component>
