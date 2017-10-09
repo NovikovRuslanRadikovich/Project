@@ -1,0 +1,69 @@
+input[name='username'] {
+    border-color : greenyellow;
+    border-width : 2px;
+    background-color : yellow;
+    position : absolute;
+    left : 10%;
+    top : 6%;
+}
+
+input[name='password'] {
+    border-color : greenyellow;
+    border-width : 2px;
+    background-color : yellow;
+    position : absolute;
+    left : 10%;
+    top : 11%;
+}
+
+input[type='submit'] {
+    border-color : greenyellow;
+    border-width : 2px;
+    background-color : yellow;
+    position : absolute;
+    left : 10%;
+    top : 16%;
+}
+
+
+
+label[for='username']{
+    position : absolute;
+    top : 6%;
+    color : darkgrey;
+
+}
+
+label[for='password'] {
+    position : absolute;
+    top : 11%;
+    color : darkgrey;
+}
+
+a{
+    position : absolute;
+    text-decoration : none;
+    background-color : yellow;
+    color : red;
+    height : 15px;
+    width : 90px;
+    padding: 1px 2px;
+    border : 1px solid greenyellow;
+    left : 25%;
+    top : 10%
+}
+
+
+.message{
+    color : orange;
+}
+
+.exited{
+    color : blue;
+}
+
+.error{
+    color : red;
+    font-style : italic;
+    font-size : large;
+}
