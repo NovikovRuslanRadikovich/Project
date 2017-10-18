@@ -1,0 +1,94 @@
+2017-10-18 17:37:11 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-18 17:37:11 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3532ec19, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@68c4039c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@ae45eb6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@59f99ea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@27efef64, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6f7fd0e6]
+2017-10-18 17:37:12 INFO  GenericApplicationContext:583 - Refreshing org.springframework.context.support.GenericApplicationContext@5ce81285: startup date [Wed Oct 18 17:37:12 EEST 2017]; root of context hierarchy
+2017-10-18 17:37:14 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:37:14 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:37:15 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@747ddf94
+2017-10-18 17:37:15 INFO  MockServletContext:440 - Initializing Spring FrameworkServlet ''
+2017-10-18 17:37:15 INFO  TestDispatcherServlet:489 - FrameworkServlet '': initialization started
+2017-10-18 17:37:15 INFO  TestDispatcherServlet:508 - FrameworkServlet '': initialization completed in 6 ms
+2017-10-18 17:37:15 INFO  FindPage:20 - Connection to url http://weather.myday.uz/vse-strani?ctid=27595&w_type=1&to_main=0
+2017-10-18 17:37:16 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:37:16 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:37:16 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@77659b30
+2017-10-18 17:37:16 INFO  MockServletContext:440 - Initializing Spring FrameworkServlet ''
+2017-10-18 17:37:16 INFO  TestDispatcherServlet:489 - FrameworkServlet '': initialization started
+2017-10-18 17:37:16 INFO  TestDispatcherServlet:508 - FrameworkServlet '': initialization completed in 0 ms
+2017-10-18 17:37:16 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:37:16 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:37:16 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@57c03d88
+2017-10-18 17:37:16 INFO  MockServletContext:440 - Initializing Spring FrameworkServlet ''
+2017-10-18 17:37:16 INFO  TestDispatcherServlet:489 - FrameworkServlet '': initialization started
+2017-10-18 17:37:16 INFO  TestDispatcherServlet:508 - FrameworkServlet '': initialization completed in 0 ms
+2017-10-18 17:37:16 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:37:16 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:37:16 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4032d386
+2017-10-18 17:37:16 INFO  MockServletContext:440 - Initializing Spring FrameworkServlet ''
+2017-10-18 17:37:16 INFO  TestDispatcherServlet:489 - FrameworkServlet '': initialization started
+2017-10-18 17:37:16 INFO  TestDispatcherServlet:508 - FrameworkServlet '': initialization completed in 0 ms
+2017-10-18 17:37:16 WARN  PageNotFound:1176 - No mapping found for HTTP request with URI [/home] in DispatcherServlet with name ''
+2017-10-18 17:37:16 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:37:16 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:37:16 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@2b175c00
+2017-10-18 17:37:16 INFO  MockServletContext:440 - Initializing Spring FrameworkServlet ''
+2017-10-18 17:37:16 INFO  TestDispatcherServlet:489 - FrameworkServlet '': initialization started
+2017-10-18 17:37:16 INFO  TestDispatcherServlet:508 - FrameworkServlet '': initialization completed in 1 ms
+2017-10-18 17:37:16 INFO  GenericApplicationContext:984 - Closing org.springframework.context.support.GenericApplicationContext@5ce81285: startup date [Wed Oct 18 17:37:12 EEST 2017]; root of context hierarchy
+2017-10-18 17:38:00 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-18 17:38:00 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3532ec19, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@68c4039c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@ae45eb6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@59f99ea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@27efef64, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6f7fd0e6]
+2017-10-18 17:38:00 INFO  GenericApplicationContext:583 - Refreshing org.springframework.context.support.GenericApplicationContext@5ce81285: startup date [Wed Oct 18 17:38:00 EEST 2017]; root of context hierarchy
+2017-10-18 17:38:02 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:38:02 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:38:02 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@223191a6
+2017-10-18 17:38:02 INFO  MockServletContext:440 - Initializing Spring FrameworkServlet ''
+2017-10-18 17:38:02 INFO  TestDispatcherServlet:489 - FrameworkServlet '': initialization started
+2017-10-18 17:38:02 INFO  TestDispatcherServlet:508 - FrameworkServlet '': initialization completed in 7 ms
+2017-10-18 17:38:02 INFO  FindPage:20 - Connection to url http://weather.myday.uz/vse-strani?ctid=27595&w_type=1&to_main=0
+2017-10-18 17:38:03 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:38:03 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:38:03 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@13d9cbf5
+2017-10-18 17:38:03 INFO  MockServletContext:440 - Initializing Spring FrameworkServlet ''
+2017-10-18 17:38:03 INFO  TestDispatcherServlet:489 - FrameworkServlet '': initialization started
+2017-10-18 17:38:03 INFO  TestDispatcherServlet:508 - FrameworkServlet '': initialization completed in 0 ms
+2017-10-18 17:38:03 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:38:03 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:38:03 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@57c03d88
+2017-10-18 17:38:03 INFO  MockServletContext:440 - Initializing Spring FrameworkServlet ''
+2017-10-18 17:38:03 INFO  TestDispatcherServlet:489 - FrameworkServlet '': initialization started
+2017-10-18 17:38:03 INFO  TestDispatcherServlet:508 - FrameworkServlet '': initialization completed in 0 ms
+2017-10-18 17:38:03 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:38:03 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:38:03 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4032d386
+2017-10-18 17:38:03 INFO  MockServletContext:440 - Initializing Spring FrameworkServlet ''
+2017-10-18 17:38:03 INFO  TestDispatcherServlet:489 - FrameworkServlet '': initialization started
+2017-10-18 17:38:03 INFO  TestDispatcherServlet:508 - FrameworkServlet '': initialization completed in 0 ms
+2017-10-18 17:38:03 WARN  PageNotFound:1176 - No mapping found for HTTP request with URI [/home] in DispatcherServlet with name ''
+2017-10-18 17:38:03 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:38:03 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:38:03 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@2b175c00
+2017-10-18 17:38:03 INFO  MockServletContext:440 - Initializing Spring FrameworkServlet ''
+2017-10-18 17:38:03 INFO  TestDispatcherServlet:489 - FrameworkServlet '': initialization started
+2017-10-18 17:38:03 INFO  TestDispatcherServlet:508 - FrameworkServlet '': initialization completed in 1 ms
+2017-10-18 17:38:04 INFO  GenericApplicationContext:984 - Closing org.springframework.context.support.GenericApplicationContext@5ce81285: startup date [Wed Oct 18 17:38:00 EEST 2017]; root of context hierarchy
+2017-10-18 17:38:27 INFO  ContextLoader:304 - Root WebApplicationContext: initialization started
+2017-10-18 17:38:27 INFO  AnnotationConfigWebApplicationContext:582 - Refreshing Root WebApplicationContext: startup date [Wed Oct 18 17:38:27 EEST 2017]; root of context hierarchy
+2017-10-18 17:38:27 INFO  AnnotationConfigWebApplicationContext:207 - Registering annotated classes: [class rus.configuration.CoreConfig]
+2017-10-18 17:38:29 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:38:29 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:38:29 INFO  SimpleUrlHandlerMapping:362 - Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-10-18 17:38:30 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Wed Oct 18 17:38:27 EEST 2017]; root of context hierarchy
+2017-10-18 17:38:30 INFO  FreeMarkerConfigurer:127 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-18 17:38:30 INFO  ContextLoader:344 - Root WebApplicationContext: initialization completed in 3177 ms
+2017-10-18 17:38:30 INFO  DispatcherServlet:489 - FrameworkServlet 'dispatcher': initialization started
+2017-10-18 17:38:30 INFO  AnnotationConfigWebApplicationContext:582 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Oct 18 17:38:30 EEST 2017]; parent: Root WebApplicationContext
+2017-10-18 17:38:30 INFO  AnnotationConfigWebApplicationContext:207 - Registering annotated classes: [class rus.configuration.WebConfig]
+2017-10-18 17:38:31 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String rus.controllers.MainController.main()
+2017-10-18 17:38:31 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/findCity],methods=[POST]}" onto public java.lang.String rus.controllers.MainController.findCity(java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-18 17:38:31 INFO  SimpleUrlHandlerMapping:362 - Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-10-18 17:38:31 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Oct 18 17:38:30 EEST 2017]; parent: Root WebApplicationContext
+2017-10-18 17:38:31 INFO  FreeMarkerConfigurer:127 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-18 17:38:31 INFO  DispatcherServlet:508 - FrameworkServlet 'dispatcher': initialization completed in 524 ms
+2017-10-18 17:38:39 INFO  FindPage:20 - Connection to url http://weather.myday.uz/vse-strani?ctid=31960&w_type=1&to_main=0
+2017-10-18 17:38:40 WARN  PageNotFound:1172 - No mapping found for HTTP request with URI [/images/icons/32.png] in DispatcherServlet with name 'dispatcher'
+2017-10-18 17:39:38 INFO  AnnotationConfigWebApplicationContext:987 - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Oct 18 17:38:30 EEST 2017]; parent: Root WebApplicationContext
+2017-10-18 17:39:38 INFO  AnnotationConfigWebApplicationContext:987 - Closing Root WebApplicationContext: startup date [Wed Oct 18 17:38:27 EEST 2017]; root of context hierarchy
